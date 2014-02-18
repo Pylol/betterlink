@@ -55,8 +55,8 @@ $(function() {
     </div>
     <div id="main_tab3" class="submenu">
         <ul>
-        <li><a href="#" class="selected">分类管理</a></li>
-        <li><a href="#">信息管理</a></li>
+        <li><a href="#content_tab3_1" class="selected">分类管理</a></li>
+        <li><a href="#content_tab3_2">信息管理</a></li>
         </ul>
     </div>
     <div id="main_tab4" class="submenu">
@@ -563,6 +563,325 @@ $(function() {
         <div class="clear"></div>
     </div><!--end of a center_content-->
 
+    <div class="center_content" id="content_tab3_1">
+        <div class="right_wrap">
+        <div class="right_content">                             
+            <div class="form_row">
+            <input type="submit" class="form_submit" value="添加新分类" style="float:left;" />
+            </div> 
+
+            <h2>修改/删除分类</h2>
+            <table id="rounded-corner">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>类名</th>
+                    <th>包含子类</th>
+                    <th>修改</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>分类1</td>
+                    <td>小分类1,小分类2,小分类3</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form_sub_buttons">
+        <a href="#" class="button red">删除所有选中项</a>
+        </div>
+        </div>
+        
+        </div><!-- end of right content-->
+        <div class="sidebar" >
+        <h2>分类管理</h2>
+            <ul>
+                <li><a href="#" class="selected">增加分类</a></li>
+                <li><a href="#">修改/删除分类</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div><!--end of a center_content-->
+    <div class="center_content" id="content_tab3_2">
+        <div class="right_wrap">
+        <div class="right_content">                             
+            <h2>增加产品介绍</h2>                                  
+            <div class="form">
+                
+                <div class="form_row">
+                <label>标题:</label>
+                <input type="text" class="form_input" name="" />
+                </div>
+                <div class="form_row">
+                <label>信息:</label>
+                <textarea class="form_textarea" name=""></textarea>
+                </div>
+                <div class="form_row">
+                <input type="submit" class="form_submit" value="Submit" />
+                </div> 
+                <div class="clear"></div>
+            </div>
+            <h2>增加动态展示内容</h2>                                  
+            <div class="form">
+                
+                <div class="form_row">
+                <label>标题:</label>
+                <input type="text" class="form_input" name="" />
+                </div>
+                <div class="form_row">
+                <label>信息:</label>
+                <textarea class="form_textarea" name=""></textarea>
+                </div>
+                <div class="form_row">
+                <input type="submit" class="form_submit" value="Submit" />
+                </div> 
+                <div class="clear"></div>
+            </div>
+            <h2>增加解决方案内容</h2>                                  
+            <div class="form">
+                
+                <div class="form_row">
+                <label>标题:</label>
+                <input type="text" class="form_input" name="" />
+                </div>
+                <div class="form_row">
+                <label>信息:</label>
+                <textarea class="form_textarea" name=""></textarea>
+                </div>
+                <div class="form_row">
+                <input type="submit" class="form_submit" value="Submit" />
+                </div> 
+                <div class="clear"></div>
+            </div>
+
+            <h2>修改/删除产品介绍</h2>
+            <table id="rounded-corner">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>产品名</th>
+                    <th>介绍内容</th>
+                    <th>修改</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>产品1</td>
+                    <td>产品介绍测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form_sub_buttons">
+        <a href="#" class="button red">删除所有选中项</a>
+        </div>
+        <h2>修改/删除动态展示内容</h2>
+            <table id="rounded-corner">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>动态</th>
+                    <th>内容</th>
+                    <th>修改</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>动态1</td>
+                    <td>动态测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form_sub_buttons">
+        <a href="#" class="button red">删除所有选中项</a>
+        </div>
+        <h2>修改/删除解决方案</h2>
+            <table id="rounded-corner">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>解决方案名称</th>
+                    <th>方案内容</th>
+                    <th>修改</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="odd">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+                <tr class="even">
+                    <td><input type="checkbox" name="" /></td>
+                    <td>解决方案</td>
+                    <td>解决方案测试内容。。</td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/edit.png" alt="" title="" border="0" /></a></td>
+                    <td><a href="#"><img src="__PUBLIC__/Images/trash.gif" alt="" title="" border="0" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form_sub_buttons">
+        <a href="#" class="button red">删除所有选中项</a>
+        </div>
+        </div>
+        
+        </div><!-- end of right content-->
+        <div class="sidebar" >
+        <h2>信息管理</h2>
+            <ul>
+                <li><a href="#" class="selected">增加信息</a></li>
+                <li><a href="#">修改/删除信息</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div><!--end of a center_content-->
 
 <script type="text/javascript">
     $(function(){
