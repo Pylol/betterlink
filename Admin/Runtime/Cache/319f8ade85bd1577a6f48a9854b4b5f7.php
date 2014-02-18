@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>后台管理-登录</title>
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/login.css" />
 <script src="__PUBLIC__/Js/jquery.min.js"></script>
 <script src="__PUBLIC__/Js/login.js" type="text/javascript"></script>
@@ -19,11 +20,21 @@
 <div id="loginpanelwrap">
     
     <div class="loginheader">
+=======
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="loginpanelwrap">
+  	
+	<div class="loginheader">
+>>>>>>> 6587abceb4e6577247b46e92286dbc81209ccec6
     <div class="logintitle"><a href="#">后台管理员登录</a></div>
     </div>
 
      
     <div class="loginform">
+<<<<<<< HEAD
         <form action='__URL__/doLogin' method='post' name='LoginForm'>
             <div class="loginform_row">
             <label>Username:</label>
@@ -44,5 +55,26 @@
         </form>
     </div>
 </div>       
+=======
+        
+        <div class="loginform_row">
+        <label>Username:</label>
+        <input type="text" class="loginform_input" name="" />
+        </div>
+        <div class="loginform_row">
+        <label>Password:</label>
+        <input type="text" class="loginform_input" name="" />
+        </div>
+        <div class="loginform_row">
+        <input type="submit" class="loginform_submit" value="Login" />
+        </div> 
+        <div class="clear"></div>
+    </div>
+ 
+
+</div>
+
+    	
+>>>>>>> 6587abceb4e6577247b46e92286dbc81209ccec6
 </body>
 </html>

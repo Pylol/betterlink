@@ -4,6 +4,7 @@ class UserAction extends Action {
     public function login(){
 		$this->display();
     }
+<<<<<<< HEAD
     public function doLogin(){
         $user=$_POST['user'];
         $password=$_POST['password'];
@@ -22,4 +23,6 @@ class UserAction extends Action {
             $this->error('该用户不存在或者密码错误');
         } 		    	
     }
+=======
+>>>>>>> 6587abceb4e6577247b46e92286dbc81209ccec6
 }
